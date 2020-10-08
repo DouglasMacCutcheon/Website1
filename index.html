@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <meta charset="utf-8">  
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <title>ENIGMA DESIGNS</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    </head>
+      
+    <body>     
+    
+ 
+    <div class="topnav" id="myTopnav">
+        <a href="#about">Home</a>
+        <a href="#portfolio" onclick="location.href='#divider1'">Portfolio</a>
+        <a href="#contact" onclick="location.href='#divider2'">Contact</a>
+        <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+    </div>
+        
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+        
+    
+<div class="logo-image">
+                <img src="logo2.png" class="logo">
+           </div>
+        
+    <div id = "landing page heading"> 
+        <h1><span id="logocolor1" style="color: lightgrey; text-shadow:
+		2px 2px 2px black
+            ; 
+    font-size: 45px;">Enigma Designs</span> <br> <br> People-Focused Website Design</h1>
+        <div id = "landing page statement"> 
+        <p>
+        Combining solid design fundamentals with user psychology to create websites that convert and flourish
+        </p>
+    </div>
+    <div id = "landingpagebuttons">
+        <button1 id="infobutton1" type="button" onclick="location.href='#bottombanner'">Learn More About Us
+        </button1>
+           
+        <button2 id="contact-button" type="button" onclick="location.href='#contactformend'">Contact Us
+        </button2>
+    </div>
+    </div>
+    
+
+    <div id="paragraph2div">
+        <h2>Our passion at Engima Designs is to see our work bring You success. <br> That's why we do this! <br> Spotlighting your essential services helps us to help You make the world a better place. <br>Our passion is to build You the accessible and intuitive website Your business deserves.</h2>
+    </div>
+
+    <div id="bottombanner"> </div>
+           
+    <div id="grid1">   
+        <div class="row">
+            <div class="column1">
+                <h4 id="whoweare">Who We Are</h4>
+                <p4 >
+                We are a small web design team led by Douglas MacCutcheon. We live and work between the beautiful countries of Sweden, South Africa and the USA, giving us a global perspective on digital business on the web. Our work is our passion, and everyone knows that people who do what they love for a living never really "work" a day in their lives. </p4>
+            </div>
+
+            <div class="column2">
+                <h4>What We Offer</h4>
+                <p5>
+                We provide a range of skills in order to best meet your website's needs. These include designing your website according to your vision, but also digital marketing advisory, including copywriting, search engine optimization (SEO) and Google Ads, that will help to put your business or services on the map. We put your project first after considering the best strategy for meeting your needs. 
+                </p5>
+            </div>
+        </div>
+    </div>
+        
+    <div id="divider1"> </div>
+            
+        
+        
+    <div class="container3" id="portfolio1">
+        <h6>Take a look at some of our work</h6>
+            <div id = "textcontainer">
+                <h7> This was the time that I invented airbnb. 
+                </h7>
+            </div>
+            
+            <div class="columnportfolio1">
+                <img id="airbnb" src="airbnb.png" alt="airbnb" >
+            </div>
+            <div id = "textcontainer">
+            <h7> Sometimes even web designers need some time off, and that's when they get someone else to make their portfolio websites. Lazy cunts! </h7>
+            </div>
+            <div class="columnportfolio2">
+            <img id = "popowebsite" src="pvc.png" alt="Lights">
+            </div>
+            </div>
+        
+        
+        <div id="divider2"> </div>
+        
+        <div class="row1">
+            <div class="column3">
+            <div class="container1" id="contactformend">
+                <h5>Message Us</h5>
+                  <form action="welcome.php" method="post">
+                    <input type="name" id="name" name="name" placeholder="Your name" required type = "text">
+
+                    <input type="email" id="email" name="email" placeholder="Email address" required type = "text">
+
+                    <input type="phone" id="phone" name="phone" placeholder="Contact number" required type = "number">
+
+                    <textarea id="message" name="message" placeholder="Message" style="height:200px" rows="4" cols="50"></textarea>
+
+                    <div class="submitbuttoncontainer">    
+                    <input id=submit type="submit" value="Submit">
+                    </div>    
+                </form>
+              </div>
+            </div>
+            <div class="column4">
+                <img src="me1.jpg" class="mephoto">
+            </div>
+        </div>
+        
+        <div id = "footerdiv"> 
+        <footer id=footer>
+            <small>&copy; EnigmaDesigns 
+                <script>document.write(new Date().getFullYear() );</script>
+            </small>
+        
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+            <script>
+            //Get the button:
+                mybutton = document.getElementById("myBtn");
+
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                  document.body.scrollTop = 0; // For Safari
+                  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                }
+            </script>
+        </footer>
+        </div>    
+   
+  
+    </body>
+    
+    
+</html>
+
+
